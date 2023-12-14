@@ -1,0 +1,53 @@
+body {
+    background: #000;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 5%;
+    font-family: Georgia;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 72px;
+    color: #fff;
+}
+
+h2.heading.xlarge.bold-600.margin-b-25[data-ckav-smd="large"] {
+    text-align: center;
+    font-size: x-large;
+    font-weight: bold;
+    margin-bottom: 25px;
+    color: #fff;
+    -moz-transition: all 0.2s ease-in;
+    -o-transition: all 0.2s ease-in;
+    -webkit-transition: all 0.2s ease-in;
+    transition: all 0.2s ease-in;
+}
+
+p {
+    text-align: center;
+    color: #00eeee;
+}
+
+a:link,
+a:visited {
+    text-decoration: none;
+    color: #fff;
+}
+
+a {
+    color: #fff;
+    -moz-transition: all 0.2s ease-in;
+    -o-transition: all 0.2s ease-in;
+    -webkit-transition: all 0.2s ease-in;
+    transition: all 0.2s ease-in;
+}
+
+a:hover {
+    color: #00eeee;
+    text-shadow: 0px 0px 30px #00eeee;
+    -moz-transition: all 0.2s ease-in;
+    -o-transition: all 0.2s ease-in;
+    -webkit-transition: all 0.2s ease-in;
+    transition: all 0.2s ease-in;
+}
