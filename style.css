@@ -166,3 +166,10 @@ a:hover {
         padding-top: 2rem;
     }
 }
+
+/* Make images responsive */
+.responsive-img {
+    width: 100%;        /* Make the image fill the container width */
+    height: auto;       /* Maintain aspect ratio */
+    max-width: 100%;    /* Ensure the image doesn’t exceed the container width */
+  }
