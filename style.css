@@ -175,10 +175,10 @@ a:hover {
   }
 
 .profile-pic {
-    width: 100px; /* Adjust to your preferred size */
-    height: 100px; /* Same as width to make it a square */
+    width: 200px; /* Adjust to your preferred size */
+    height: 200px; /* Same as width to make it a square */
     border-radius: 50%; /* Makes the image circular */
     object-fit: cover; /* Ensures the image scales properly */
-    border: 2px solid #fff; /* Optional: Add a border */
+    border: 2px solid #77777781; /* Optional: Add a border */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional: Add a shadow */
 }
