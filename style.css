@@ -175,8 +175,8 @@ a:hover {
   }
 
 .profile-pic {
-    width: 200px; /* Adjust to your preferred size */
-    height: 200px; /* Same as width to make it a square */
+    width: 150px; /* Adjust to your preferred size */
+    height: 150px; /* Same as width to make it a square */
     border-radius: 50%; /* Makes the image circular */
     object-fit: cover; /* Ensures the image scales properly */
     border: 2px solid #77777781; /* Optional: Add a border */
