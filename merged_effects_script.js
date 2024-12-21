@@ -14,7 +14,7 @@ function createMeteors() {
 
     setTimeout(() => {
         meteor.remove();
-    }, 3000);
+    }, 5000);
 }
 
 function createStars() {
