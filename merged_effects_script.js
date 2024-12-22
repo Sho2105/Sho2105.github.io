@@ -44,65 +44,66 @@ function createStars() {
 setInterval(createMeteors, 6000);
 createStars();
 
-function openProject(project) {
-    var modalContent = '';
-    switch (project) {
-        case 'project1':
-            modalContent = `
-                <h2>Project 1</h2>
-                <img src="Images/Yiko_47_wi92.com.jpg" alt="Project 1 Image" class="responsive-img"/>
-                <iframe 
-                    src="Assets/BTL_TKDHCB.pdf" 
-                    style="width: 100%; height: 600px; border: none;" 
-                    title="Project 1 PDF"></iframe>
-                <p>Description for Project 1 goes hi.</p>
-            `;
-            break;
-        case 'project2':
-            modalContent = `
-                <h2>Project 2</h2>
-                <iframe 
-                    src="Assets/BTL_TKW.pdf" 
-                    style="width: 100%; height: 600px; border: none;" 
-                    title="Project 2 PDF"></iframe>
-                <p>Description for Project 2 goes here.</p>
-            `;
-            break;
-        case 'project3':
-            modalContent = `
-                <h2>Project 3</h2>
-                <iframe 
-                    src="Assets/BTL_LTW.pdf" 
-                    style="width: 100%; height: 600px; border: none;" 
-                    title="Project 3 PDF"></iframe>
-                <p>Description for Project 3 goes here.</p>
-            `;
-            break;
-        case 'project4':
-            modalContent = `
-                <h2>Project 4</h2>
-                <iframe 
-                    src="Assets/BTL_UID.pdf" 
-                    style="width: 100%; height: 600px; border: none;" 
-                    title="Project 4 PDF"></iframe>
-                <p>Description for Project 4 goes here.</p>
-            `;
-            break;
-        case 'project5':
-            modalContent = `
-                <h2>Project 5</h2>
-                <iframe 
-                    src="Assets/BTL_PZ.pdf" 
-                    style="width: 100%; height: 600px; border: none;" 
-                    title="Project 5 PDF"></iframe>
-                <p>Description for Project 5 goes here.</p>
-            `;
-            break;
-    }
-    document.getElementById("modalBody").innerHTML = modalContent;
-    document.getElementById("projectModal").style.display = "block";
-}
 
-function closeModal() {
-    document.getElementById("projectModal").style.display = "none";
-}
+    function openProject(project) {
+        var modalContent = '';
+        switch (project) {
+            case 'project1':
+                modalContent = `
+                    <h2>Website quảng cáo</h2>
+                    <img src="Images/Yiko_47_wi92.com.jpg" alt="Website quảng cáo Image" class="responsive-img"/>
+                    <iframe 
+                        src="Assets/BTL_TKDHCB.pdf" 
+                        style="width: 100%; height: 600px; border: none;" 
+                        title="Website quảng cáo PDF"></iframe>
+                    <p>Description for Website quảng cáo goes here.</p>
+                `;
+                break;
+            case 'project2':
+                modalContent = `
+                    <h2>Website bán đồ chơi</h2>
+                    <iframe 
+                        src="Assets/BTL_TKW.pdf" 
+                        style="width: 100%; height: 600px; border: none;" 
+                        title="Website bán đồ chơi PDF"></iframe>
+                    <p>Description for Website bán đồ chơi goes here.</p>
+                `;
+                break;
+            case 'project3':
+                modalContent = `
+                    <h2>Thiết kế bìa sách truyện</h2>
+                    <iframe 
+                        src="Assets/BTL_LTW.pdf" 
+                        style="width: 100%; height: 600px; border: none;" 
+                        title="Thiết kế bìa sách truyện PDF"></iframe>
+                    <p>Description for Thiết kế bìa sách truyện goes here.</p>
+                `;
+                break;
+            case 'project4':
+                modalContent = `
+                    <h2>Mod texture Project Zomboid</h2>
+                    <iframe 
+                        src="Assets/BTL_UID.pdf" 
+                        style="width: 100%; height: 600px; border: none;" 
+                        title="Mod texture Project Zomboid PDF"></iframe>
+                    <p>Description for Mod texture Project Zomboid goes here.</p>
+                `;
+                break;
+            case 'project5':
+                modalContent = `
+                    <h2>Website bán laptop</h2>
+                    <iframe 
+                        src="Assets/BTL_PZ.pdf" 
+                        style="width: 100%; height: 600px; border: none;" 
+                        title="Website bán laptop PDF"></iframe>
+                    <p>Description for Website bán laptop goes here.</p>
+                `;
+                break;
+        }
+        document.getElementById('modalBody').innerHTML = modalContent;
+        document.getElementById('projectModal').style.display = 'block';
+    }
+
+    function closeModal() {
+        document.getElementById('projectModal').style.display = 'none';
+    }
