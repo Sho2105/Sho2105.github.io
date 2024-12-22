@@ -44,66 +44,65 @@ function createStars() {
 setInterval(createMeteors, 6000);
 createStars();
 
-// Project modal handling
 function openProject(project) {
     var modalContent = '';
     switch (project) {
         case 'project1':
             modalContent = `
-                <h2>Thiết kế bìa truyện Vagabond</h2>
-                <img src="Images/Yiko_47_wi92.com.jpg" alt="Thiết kế bìa truyện Vagabond" class="responsive-img"/>
+                <h2>Thiết Kế Bìa Truyện Vagabond</h2>
+                <img src="Images/Yiko_47_wi92.com.jpg" alt="Thiết Kế Bìa Truyện Vagabond" class="responsive-img"/>
                 <iframe 
                     src="Assets/BTL_TKDHCB.pdf" 
                     style="width: 100%; height: 600px; border: none;" 
-                    title="Thiết kế bìa truyện Vagabond PDF"></iframe>
-                <p>Dự án thiết kế bìa truyện tranh Vagabond bằng phần mềm Adobe Illustrator, tập trung vào chi tiết và sự sáng tạo để thể hiện nét độc đáo của tác phẩm.</p>
+                    title="Thiết Kế Bìa Truyện Vagabond PDF"></iframe>
+                <p>Dự án sử dụng Adobe Illustrator để thiết kế bìa truyện Vagabond với phong cách sáng tạo và nghệ thuật.</p>
             `;
             break;
         case 'project2':
             modalContent = `
-                <h2>Thiết kế website quảng cáo và bán digital game</h2>
+                <h2>Website Quảng Cáo và Bán Digital Game</h2>
                 <iframe 
                     src="Assets/BTL_TKW.pdf" 
                     style="width: 100%; height: 600px; border: none;" 
-                    title="Thiết kế website bán digital game PDF"></iframe>
-                <p>Dự án thiết kế website nhằm quảng bá và bán các sản phẩm game kỹ thuật số, kết hợp giao diện hiện đại và thân thiện với người dùng.</p>
+                    title="Website Quảng Cáo và Bán Digital Game PDF"></iframe>
+                <p>Dự án thiết kế website để quảng bá và bán các sản phẩm game kỹ thuật số, với giao diện hiện đại và trực quan.</p>
             `;
             break;
         case 'project3':
             modalContent = `
-                <h2>Website bán đồ chơi thú cưng</h2>
+                <h2>Website Bán Đồ Chơi Thú Cưng</h2>
                 <iframe 
                     src="Assets/BTL_LTW.pdf" 
                     style="width: 100%; height: 600px; border: none;" 
-                    title="Website bán đồ chơi thú cưng PDF"></iframe>
-                <p>Phát triển website thương mại điện tử chuyên về đồ chơi và phụ kiện cho thú cưng, tích hợp tính năng tìm kiếm và thanh toán tiện lợi.</p>
+                    title="Website Bán Đồ Chơi Thú Cưng PDF"></iframe>
+                <p>Website thương mại điện tử chuyên về đồ chơi và phụ kiện cho thú cưng, được thiết kế với giao diện thân thiện và dễ sử dụng.</p>
             `;
             break;
         case 'project4':
             modalContent = `
-                <h2>Giao diện ứng dụng đọc sách</h2>
+                <h2>Giao Diện Ứng Dụng Đọc Sách</h2>
                 <iframe 
                     src="Assets/BTL_UID.pdf" 
                     style="width: 100%; height: 600px; border: none;" 
-                    title="Giao diện ứng dụng đọc sách PDF"></iframe>
-                <p>Thiết kế giao diện ứng dụng đọc sách bằng Figma, tập trung vào trải nghiệm người dùng tối ưu với cách bố trí khoa học và dễ nhìn.</p>
+                    title="Giao Diện Ứng Dụng Đọc Sách PDF"></iframe>
+                <p>Thiết kế giao diện ứng dụng đọc sách bằng Figma, tập trung vào trải nghiệm người dùng với cách bố trí khoa học và trực quan.</p>
             `;
             break;
         case 'project5':
             modalContent = `
-                <h2>Mod texture Project Zomboid</h2>
+                <h2>Mod Texture Project Zomboid</h2>
                 <iframe 
                     src="Assets/BTL_PZ.pdf" 
                     style="width: 100%; height: 600px; border: none;" 
-                    title="Mod texture Project Zomboid PDF"></iframe>
-                <p>Tạo và chỉnh sửa texture cho Project Zomboid bằng Blender, nâng cấp hình ảnh trò chơi.</p>
+                    title="Mod Texture Project Zomboid PDF"></iframe>
+                <p>Dự án mod texture cho Project Zomboid, sử dụng Blender để tạo và chỉnh sửa texture, mang đến diện mạo mới cho trò chơi.</p>
             `;
             break;
     }
-    document.getElementById('modalBody').innerHTML = modalContent;
-    document.getElementById('projectModal').style.display = 'block';
+    document.getElementById("modalBody").innerHTML = modalContent;
+    document.getElementById("projectModal").style.display = "block";
 }
 
 function closeModal() {
-    document.getElementById('projectModal').style.display = 'none';
+    document.getElementById("projectModal").style.display = "none";
 }
