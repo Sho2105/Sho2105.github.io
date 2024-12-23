@@ -55,7 +55,7 @@ function openProject(project) {
                     src="Assets/BTL_TKDHCB.pdf" 
                     style="width: 100%; height: 600px; border: none;" 
                     title="Thiết Kế Bìa Truyện Vagabond PDF"></iframe>
-                <p>Dự án sử dụng Adobe Illustrator để thiết kế bìa truyện Vagabond với phong cách sáng tạo và nghệ thuật.</p>
+                <p>Sử dụng Adobe Illustrator thiết kế bìa truyện Vagabond với phong cách sáng tạo và nghệ thuật.</p>
             `;
             break;
         case 'project2':
@@ -65,7 +65,7 @@ function openProject(project) {
                     src="Assets/BTL_TKW.pdf" 
                     style="width: 100%; height: 600px; border: none;" 
                     title="Website Quảng Cáo và Bán Digital Game PDF"></iframe>
-                <p>Dự án thiết kế website để quảng bá và bán các sản phẩm game kỹ thuật số, với giao diện hiện đại và trực quan.</p>
+                <p>Sử dụng Adobe Photoshop thiết kế website để quảng bá và bán các sản phẩm game kỹ thuật số, với giao diện hiện đại và trực quan.</p>
             `;
             break;
         case 'project3':
