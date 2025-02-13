@@ -123,10 +123,14 @@ a:hover {
 
 @keyframes shower {
     from {
-        transform: translateY(-10%) rotate(50deg); /* relative positioning */
+        transform: translateY(-50%);
+        transform: rotate(50deg);
     }
     to {
-        transform: translateY(150vh) rotate(55deg); /* extends past the screen */
+        transform: translateY(500%);
+        left: 0px;
+        top: 130%;
+        transform: rotate(55deg);
     }
 }
 
