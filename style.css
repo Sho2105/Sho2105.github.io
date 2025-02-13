@@ -103,7 +103,7 @@ a:hover {
 
 /* animated stars and meteors */
 .animated-area {
-    position: flex;
+    position: absolute;
     width: 100%;
     height: 100%;
     background-color: #000;
@@ -112,31 +112,34 @@ a:hover {
 }
 
 .animated-area .meteor {
-    position: flex;
-    top: 0;
+    position: absolute;
+    top: -10%; /* start slightly offscreen */
+    left: calc(50% - 2vw); /* adjust based on screen width */
+    width: 2vw; /* dynamic size relative to viewport width */
+    height: 10vh; /* dynamic height */
     background-image: linear-gradient(to bottom, transparent, #fff);
     animation: shower 3s linear infinite;
 }
 
 @keyframes shower {
     from {
-        transform: translateY(-50%);
-        transform: rotate(50deg);
+        transform: translateY(-10%) rotate(50deg); /* relative positioning */
     }
     to {
-        transform: translateY(500%);
-        left: 0px;
-        top: 130%;
-        transform: rotate(55deg);
+        transform: translateY(150vh) rotate(55deg); /* extends past the screen */
     }
 }
 
 .animated-area .star {
     background: #fff;
-    position: flex;
+    position: absolute;
+    width: 0.2vw; /* dynamic size */
+    height: 0.2vw;
     border-radius: 50%;
-    box-shadow: 0 10px 20px 1px rgba(255, 255, 255, 0.596);
-    animation: animate linear infinite;
+    box-shadow: 0 0.5vh 1vh 0.1vh rgba(255, 255, 255, 0.6);
+    animation: animate 5s linear infinite;
+    left: calc(100% * var(--random-x)); /* position dynamically using css variables */
+    top: calc(100% * var(--random-y));
 }
 
 @keyframes animate {
@@ -150,7 +153,7 @@ a:hover {
     }
     100% {
         opacity: 0;
-        transform: translateY(-100px);
+        transform: translateY(-10vh);
     }
 }
 
