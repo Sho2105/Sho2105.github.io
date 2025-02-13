@@ -35,7 +35,7 @@ a:hover {
 /* grid layout */
 .grid-2 {
     display: grid;
-    grid-template-columns: 1fr 2fr; /* left side 1/3, right side 2/3 */
+    grid-template-columns: 1.5fr 2fr; /* left side 1/3, right side 2/3 */
     gap: 20px; /* optional: space between columns */
 }
 
@@ -103,7 +103,7 @@ a:hover {
 
 /* animated stars and meteors */
 .animated-area {
-    position: absolute;
+    position: flex;
     width: 100%;
     height: 100%;
     background-color: #000;
@@ -112,7 +112,7 @@ a:hover {
 }
 
 .animated-area .meteor {
-    position: absolute;
+    position: flex;
     top: 0;
     background-image: linear-gradient(to bottom, transparent, #fff);
     animation: shower 3s linear infinite;
@@ -133,7 +133,7 @@ a:hover {
 
 .animated-area .star {
     background: #fff;
-    position: absolute;
+    position: flex;
     border-radius: 50%;
     box-shadow: 0 10px 20px 1px rgba(255, 255, 255, 0.596);
     animation: animate linear infinite;
